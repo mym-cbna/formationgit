@@ -1,0 +1,8 @@
+=STXT(AL68455;CHERCHE("Info:";AL68455;1);TROUVE("--";AL68455;1))
+
+
+On peut aussi utiliser une formule comprenant :
+— La fonction SUBSTITUE, qui permet de remplacer un caractère par un autre dans une chaîne donnée.
+— La fonction CAR qui permet de choisir le caractère de retour à la ligne, ici le no 10.
+Soit donc :
+=SUBSTITUE(A1;CAR(10);” ”)
