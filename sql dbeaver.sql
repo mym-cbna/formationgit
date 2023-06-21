@@ -6,6 +6,7 @@ from z_temp_cbna.erreur_taxons_txt
 where observation.id_observation = erreur_taxons_txt.id_observation
 
 ajout geom
+  [champ geom dont contenir le SRID=2154;Point(.... et être mis en geometry ]
 
 update flore.releve
 set geom_zone_2154 = geom_acer_txt.geom
